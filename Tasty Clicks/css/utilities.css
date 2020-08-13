@@ -1,0 +1,61 @@
+.text-primary {
+	color: #ff4242;
+}
+
+.text-secondary {
+	color: #ff9f1c;
+}
+
+/* Button Styles */
+.btn {
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 30px;
+	color: #fff;
+	background: #ff4242;
+	border: none;
+	border-radius: 5px;
+}
+
+.btn-primary,
+.bg-primary {
+	color: #fff;
+	background: #ff4242;
+}
+
+.btn-secondary,
+.bg-secondary {
+	color: #fff;
+	background: #0284d0;
+}
+
+.btn-dark,
+.bg-dark {
+	color: #fff;
+	background: #333;
+}
+
+.btn-light,
+.bg-light {
+	color: #333;
+	background: #f4f4f4;
+}
+
+.btn-outline {
+	background: transparent;
+	border: 1px solid white;
+}
+
+/* Flex Items */
+.flex-items {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.flex-items > div {
+	padding: 20px;
+	max-width: 500px;
+}
